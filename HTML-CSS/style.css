@@ -1,0 +1,93 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-box {
+    width: 250px;
+    height: 270px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgb(0, 0, 0);
+}
+
+.login-box h1 {
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: #2e2c2d;
+    margin-top: 0;
+    text-align: center;
+    border-bottom: 1px solid #a8a8a8;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.login-box i {
+    color: grey;
+    margin-right: 3px;
+}
+
+.text-box {
+    width: 100%;
+    font-size: 15px;
+    margin: 8px 0;
+    padding: 6px 0 6px 6px;
+}
+
+.text-box input {
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 12px;
+    width: 200px;
+    border-bottom: 1px solid #a8a8a8;
+    padding: 5px;
+}
+
+#btn {
+    width: 100%;
+    background: #f55353;
+    /*background: linear-gradient(90deg, #ff0000, #ff9900, #fff700, #22ff00, #00f2ff, #0040ff, #bb00ff);*/
+    border: 2px solid #f55353;
+    border-radius: 15px;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+#btn:hover {
+    color: #2e2c2d;
+}
+
+.text-box input:focus {
+    border-color: rgba(81, 203, 238, 1);
+}
+
+.for-pass {
+  padding-top: 3px;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+}
+.for-pass a {
+  text-decoration: none;
+}
+
+.for-pass a:hover{
+  text-decoration: underline;
+}
